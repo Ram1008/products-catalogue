@@ -3,7 +3,7 @@
 A responsive product catalog for an e-commerce site built using Vite and React. The catalog fetches product data from an API, includes live search functionality, and is styled with Tailwind CSS.  
 
 ### 🚀 [Live Demo](#)  
-_(Add your deployment link here once the app is live.)_
+https://products-catalogue-qlwfyxoul-ram1008s-projects.vercel.app/
 
 ---
 
@@ -39,15 +39,11 @@ Follow these steps to set up the project locally:
    ```
    git clone https://github.com/your-username/product-catalog.git
    ```
-2. Move to the root directory
-   ```
-   cd product-catalog
-   ```
-3. Install dependency
+2. Install dependency
    ```
    npm install
    ```
-4. Run the app
+3. Run the app
    ```
    npm run dev
    ```
