@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-family: "Times", serif; 
+  }
+  
+  .Stars::before {
+    content: '★★★★★';
+    letter-spacing: 3px;
+    font-size: 1.6rem;
+    background: linear-gradient(90deg, #ffcc00 var(--percent), #b2b2b3 var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
